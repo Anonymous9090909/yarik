@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+        .main {
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: aliceblue;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .main-content {
+            background-color: white;
+        }
+        .project-title {
+        }
+        .sidebar {
+            background-color: black;
+            padding-top: 40px;
+            width: 370px;
+        }
+        .photo {
+            width: 370px;
+            margin-bottom: 50px;
+        }
+        .sidebar-title {
+            color: rgb(255, 255, 255);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            margin-bottom: 10px;
+        }
+        .contacts,
+        .tech-skills,
+        .soft-skills {
+            margin-left: 40px;
+            margin-bottom: 50px;
+        }
+        .contact-type {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            margin-right: 10px;
+        }
+        .conact-link {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+        }
+        .tech-list {
+            color: #ffffff;
+            padding: 0;
+            margin-left: 15px;
+        }
+        .tech-skills-text {
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .tech-skills-item {
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <div class="main-content">
+        <div>
+            <h2> Front-End розробник</h2>
+            <h1>Радевич Ярослав</h1>
+            <p>Профіль
+                Компетентний і досвідчений розробник Front-End з більш ніж трьома роками практичного досвіду. Маю глибокі знання HTML, CSS та JavaScript, здатність ефективно створювати затребувані інтерфейси користувача та оптимізувати їх для високої продуктивності та відповідності стандартам.</p>
+        </div>
+        <div>
+            <h3 class="project-title">Проекти</h3>
+            <ol>
+                <li><a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>.........[ HTML5, CSS3 ]</li>
+                <li><a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>..........[ JavaScript ]</li>
+                <li><a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>...........[ React.js, Node.js ]</li>
+            </ol>
+        </div>
+        <div>
+            <h3> Досвід роботи</h3>
+            <div>
+                <h4>  Розробник Front-End
+                    IT Solutions Inc., Київ, Україна
+                    Лютий 2021 - До теперішнього часу</h4>
+                <p>Вересень 2019 - по теперішній час | Країна</p>
+                <ul>
+                    <li>Розробка та підтримка інтерфейсів користувача для веб-додатків</li>
+                    <li>Взаємодія зі зв'язаними командами для реалізації функціональності</li>
+                    <li>Стажер програміст
+                        TechGenius, Київ, Україна
+                        Січень 2020 - Грудень 2020</li>
+                    <li>Вивчення та вдосконалення навичок програмування
+                        Участь у проектах розробки програмного забезпечення</li>
+                </ul>
+            </div>
+            <div>
+                <h4> Технічні навички</h4>
+                <p> Березень 2015 - жовтень 2018 | Країна</p>
+                <ul>
+                    <li>Мови програмування: HTML, CSS, JavaScript</li>
+                    <li>Фреймворки: React.js, Bootstrap</li>
+                    <li>Версійний контроль: Git, GitHub</li>
+                    <li>Інструменти розробки: VS Code, Sublime Text</li>
+                    <li>Операційні системи: Windows, macOS, Linux</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Хобі</h4>
+                <p>Червень 2014 - Лютий 2015 | Країна</p>
+                <ul>
+                    <li>Фотографія: Захоплення фотографією дозволяє мені відтворювати красу навколишнього світу через об'єктив камери. Я люблю досліджувати нові місця та зафіксовувати їх неповторність.</li>
+                    <li>Мандрівки: Подорожі допомагають мені розширити свій світогляд, пізнати різноманітні культури та отримати нові враження. Під час мандрівок я також активно досліджую місцеву кухню та звичаї.</li>
+                    <li>Література: Я віддаю перевагу як художній, так і фаховій літературі. Читання допомагає мені розвивати креативне мислення та збагачує мої знання у різних сферах життя.</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h3>Освіта</h3>
+            <p>Магістр інформаційних технологій</p>
+            <h4>Нова Комп'ютерна Академія, Київ, Україна</h4>
+            <p>Випускник, 2018-2021</p>
+        </div>
+    </div>
+
+    <aside class="sidebar">
+        <img src="https://cdn.pixabay.com/photo/2017/01/25/20/05/raptor-2008906_1280.jpg" alt="user photo" class="photo">
+        <div class="contacts">
+            <h3 class="sidebar-title">Контактні дані</h3>
+            <div>
+                <p><span class="contact-type">C:</span> <a href="tel:+77777777777" class="conact-link">+7 777 777 77 77</a></p>
+                <p><span class="contact-type">E:</span> <a href="mailto:chornyiav@gmail.com" class="conact-link">chornyiav@gmail.com</a> </p>
+            </div>
+        </div>
+        <div class="tech-skills">
+            <h3 class="sidebar-title">Технічні навички</h3>
+            <ul class="tech-list">
+                <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span> </li>
+                <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
+                <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
+                <li class="tech-skills-item"><span class="tech-skills-text
